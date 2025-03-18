@@ -22,7 +22,7 @@ transaction을 위해 만들어진 것.
 1. 프로젝트: 다양한 데이터셋으로 이루어짐 (가장 큰 단위)
 2. 데이터셋: 다양한 테이블로 이루어짐
 3. 테이블: 행, 열로 이루어진 데이터 (엑셀, 스프레드 시트)
-
+**<img width="1180" alt="Image" src="https://github.com/user-attachments/assets/2ec92a14-b160-4df3-b7c6-3ad0951353bd" />**
 # **2-1. 데이터활용 Overview**
 **데이터활용과정**
 1. 어떤 일을 해야한다
