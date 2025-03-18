@@ -7,7 +7,7 @@ transaction을 위해 만들어진 것.
 
 3. SQL(Structured Query Language) : 데이터베이스에서 데이터를 추출할 때 사용하는 언어. 데이터베이스의 데이터를 관리하기 위해 설계된 특수 목적의 프로그래밍 언어.
 
-4. OLAP(Online Analytical Processing), DW(Data Warehouse) : OLTP의 속도, 기능에 대한 보완이 된 분석에 적합한 OLAP 등장. DW: 다양한 데이터를 한 곳에 모은 곳
+4. OLAP(Online Analytical Processing), DW(Data Warehouse) : OLTP의 속도, 기능에 대한 보완이 된 분석에 적합한 OLAP 등장. DW: 다양한 데이터를 한 곳에 모은 곳
 
 5. BigQuery : Google Cloud의 OLAP이자 DW
 
