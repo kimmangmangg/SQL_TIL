@@ -31,11 +31,14 @@ Google Cloud의 OLAP이자 DW<br>
 - BigQuery 비용(US기준) : 쿼리비용과 저장비용이 있음<br><br>
  
 # **1-2. BigQuery 환경설정**   
+<br>
+<img width="1677" alt="Image" src="https://github.com/user-attachments/assets/05b0bbc6-8318-4136-adff-ad2c9086c58b" /> <br>
 
-1. 프로젝트: 다양한 데이터셋으로 이루어짐 (가장 큰 단위)
-2. 데이터셋: 다양한 테이블로 이루어짐
-3. 테이블: 행, 열로 이루어진 데이터 (엑셀, 스프레드 시트)
-**<img width="1180" alt="Image" src="https://github.com/user-attachments/assets/2ec92a14-b160-4df3-b7c6-3ad0951353bd" />**
+### **[BigQuery의 환경 구성 요소]<br>**
+1. 프로젝트: 여러 데이터셋으로 이루어짐 (가장 큰 단위)<br>
+2. 데이터셋: 다양한 테이블로 이루어짐<br>
+3. 테이블: 행, 열로 이루어진 데이터 (엑셀, 스프레드 시트)<br>
+
 4. `을 '로 헷갈려서 오류 발생했었음
 <img width="1235" alt="Image" src="https://github.com/user-attachments/assets/fe121090-ffcc-424b-a96f-b23c59b018f4" />
 
