@@ -39,8 +39,10 @@ Google Cloud의 OLAP이자 DW<br>
 2. 데이터셋: 다양한 테이블로 이루어짐<br>
 3. 테이블: 행, 열로 이루어진 데이터 (엑셀, 스프레드 시트)<br>
 
-4. `을 '로 헷갈려서 오류 발생했었음
-<img width="1235" alt="Image" src="https://github.com/user-attachments/assets/fe121090-ffcc-424b-a96f-b23c59b018f4" />
+### **[테이블 생성]<br>**
+<img width="1677" alt="Image" src="https://github.com/user-attachments/assets/45db1a8f-b72f-474c-89ea-4d193a7c3e98" /><br>
+
+
 
 # **2-1. 데이터활용 Overview**
 **데이터활용과정**
