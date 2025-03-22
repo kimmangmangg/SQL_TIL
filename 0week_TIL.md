@@ -1,22 +1,35 @@
 # **1-1. BigQuery 기초지식**
-1. MySQL, Oracle, PostgreSQL 등 데이터베이스 많이 사용 회사바이회사 - OLTP(online transaction processing)이라는 공통점이 있음.
 
+### **[데이터 저장 형태]<br>**
+보통 데이터베이스 테이블에 저장<br>
 
-2. OLTP(Online Transaction Processing): 거래를 하기 위해 사용되는 데이터베이스. 데이터가 무결함. 데이터의 추가(INSERT), 변경(UPDATE)등 자주 발생. 분석을 위해 만든게 아니라서 속돌가 느리고 편의기능이 좀 떨어짐
-transaction을 위해 만들어진 것.
+### **[데이터 저장 장소]<br>**
+1. MySQL, Oracle, PostgreSQL, AWS Aurora(클라우드) 데이터베이스 주로 사용 → 회사 by 회사
+2. OLTP(OnLine Transaction Processing)이라는 공통점이 있음.<br>
 
-3. SQL(Structured Query Language) : 데이터베이스에서 데이터를 추출할 때 사용하는 언어. 데이터베이스의 데이터를 관리하기 위해 설계된 특수 목적의 프로그래밍 언어.
+- OLTP?<br>
+  - 거래를 하기 위해 사용되는 데이터베이스 (e.g. 음식주문)<br>
+  - 보류, 중간 상태가 없음 = 데이터가 무결함.<br>
+  - 데이터의 추가(INSERT), 변경(UPDATE) 등이 자주 발생.<br>
+  - SQL을 사용하여 데이터 추출 가능.<br>
+  - But 분석을 위해 만든게 아니라서 속도가 느리고 편의기능이 좀 떨어짐.<br>
+  
+### **[SQL(Structured Query Language)]<br>**
+데이터베이스에서 데이터를 추출/관리할 때 사용하는 프로그래밍 언어<br>
 
-4. OLAP(Online Analytical Processing), DW(Data Warehouse) : OLTP의 속도, 기능에 대한 보완이 된 분석에 적합한 OLAP 등장. DW: 다양한 데이터를 한 곳에 모은 곳
+### **[OLAP와 DW]<br>**
+- OLAP(Online Analytical Processing) : OLTP의 속도, 기능에 대해 보완이 된, 분석을 위한 기능이 제공되는 서비스
+- DW(Data Warehouse) : 여러 데이터(DB,웹크롤링,csv파일,API결과 등) 들을 한 곳에 모아서 저장하는 창고<br>
 
-5. BigQuery : Google Cloud의 OLAP이자 DW
-
-6. BigQuery 장점 : SQL을 사용해 쉽게 데이터 추출 가능 / OLAP 도구이므로 속도 빠름(but 돈이 든다)
-
-7. Firebase, Google Analytics4의 데이터 쉽게 추출 가능. 데이터 웨어하우스를 사용하기 위해 서버를 띄울 필요 없이 구글에서 인프라를 관리함
-
-8. BigQuery 비용(US기준) : 쿼리비용) 쿼리에서 처리된 용량만큼 부과 or Slot단위로 요금 부과 / 저장비용) 저렴함
-
+### **[BigQuery]<br>**
+Google Cloud의 OLAP이자 DW<br>
+- 난이도 : SQL을 이용해 데이터 추출 가능<br>
+- 속도 : OLTP보다 압도적으로 속도가 빠름 (but 돈이 든다)<br>
+- Firebase, Google Analytics4(앱/웹 개발시 많이 사용되는 도구)의 데이터가 자동으로 저장되어 손쉽게 추출 가능<br>
+- 사용 기기, 위치, OS버전, 이벤트 행동 등 추출 가능<br>
+- 데이터 웨어하우스를 사용하기 위해 서버나 컴퓨터를 띄울 필요 없이 구글에서 서버(인프라)를 관리함<br>
+- BigQuery 비용(US기준) : 쿼리비용과 저장비용이 있음<br><br>
+ 
 # **1-2. BigQuery 환경설정**   
 
 1. 프로젝트: 다양한 데이터셋으로 이루어짐 (가장 큰 단위)
