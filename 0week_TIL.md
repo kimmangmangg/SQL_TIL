@@ -42,6 +42,11 @@ Google Cloud의 OLAP이자 DW<br>
 ### **[테이블 생성]<br>**
 <img width="1677" alt="Image" src="https://github.com/user-attachments/assets/45db1a8f-b72f-474c-89ea-4d193a7c3e98" /><br>
 
+### **[쿼리 실행해보기]<br>**
+<img width="563" alt="Image" src="https://github.com/user-attachments/assets/e03ed5c6-6245-4bca-8791-f0b7c4573aa3" /><br>
+
+
+
 
 
 # **2-1. 데이터활용 Overview**
