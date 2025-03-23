@@ -114,9 +114,9 @@
    **GROUP BY<br>** Col1,Col2<br>
    **HAVING<br>** *col1_cnt*>3<br><br>
 
-- col1_cnt는 그룹바이 이후에 생겨난 칼럼 !
+- *col1_cnt*는 그룹바이 이후에 생겨난 칼럼
 - 서브쿼리 개념을 이용해서도 나타낼 수 있음
-- WHERE과 HAVING 같이 사용 가능
+- WHERE과 HAVING 같이도 사용 가능<br>
 
 ### **[서브쿼리]<br>**
 - SELECT문 안에 존재하는 SELECT쿼리
