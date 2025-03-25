@@ -10,7 +10,7 @@
 **FROM<br>** DataSet.Table ( → 어떤 데이터셋의 어떤 테이블에서 데이터를 확인할지 )<br>
 **WHERE<br>** Col1=1 ( → 원하는 조건 )<br><br>
 2. 쿼리 실행 순서는 **FROM** > **WHERE** > **SELECT<br><br>**
-3. **AS new_name** : Col1을 new_name으로 바꾸겠다.(별칭 지정)<br> **e.g.** **SELECT** * **FROM** basic.pokemon **WHERE** type1="Fire" ( → pokemon 테이블에서 type1이 Fire인 **모든** 칼럼을 출력해라 )<br>
+3. **AS new_name** : Col1을 new_name으로 바꾸겠다.(별칭 지정)<br> **e.g.** SELECT * FROM basic.pokemon WHERE type1="Fire" ( → pokemon 테이블에서 type1이 Fire인 **모든** 칼럼을 출력해라 )<br>
     - 빅쿼리의 경우에는 1TB에 6달러씩 비용이 발생하므로, 필요한 칼럼만 출력하는 것이 좋음
     - 행이 적으면 괜찮지만, 사실 현업에서는 *을 많이 쓰지는 않음
     - 사실 데이터 확인용으로 *출력하는 것인데, 빅쿼리에서 '미리보기'기능을 사용하면 됨<br><br>
