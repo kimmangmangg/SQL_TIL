@@ -117,4 +117,16 @@ SELECT
 FROM (
 SELECT * FROM basic.trainer WHERE id = 3)
 ```
+<br><br>
 
+# **4-2. 데이터 타입과 데이터 변환(CAST, SAFE_CAST)<br>**
+오류메세지에서는 문제가 되는 지점을 알려줌 !<br>
+
+# **4-3. 문자열 함수(CONCAT, SPLIT, REPLACE, TRIM, UPPER)<br>**
+오류메세지에서는 문제가 되는 지점을 알려줌 !<br>
+
+# **4-4. 날짜 및 시간 데이터 이해하기(1)(타임존, UTC, Millisecond, TIMESTAMP/DATETIME)<br>**
+오류메세지에서는 문제가 되는 지점을 알려줌 !<br>
+
+
+# 0. 학습인증<br>
