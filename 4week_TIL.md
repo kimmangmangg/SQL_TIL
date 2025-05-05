@@ -142,7 +142,7 @@ FROM 테이블
 
 <br><br>
 
-> ## 🏆 **학습인증**<br>
+> ## **✏️ 학습인증**<br>
 ![Image](https://github.com/user-attachments/assets/a54e7c1d-9d1b-4f04-a1ef-238d9f7009e0)
 
 
